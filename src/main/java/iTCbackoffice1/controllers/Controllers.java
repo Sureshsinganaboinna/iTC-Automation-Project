@@ -13,7 +13,7 @@ public class Controllers {
 	private LoginPage loginpage;
 	
 	@PostMapping("/login")
-	public LoginPage loginPageMethos(@RequestBody LoginPage loginpage)
+	public LoginPage loginPageMethods(@RequestBody LoginPage loginpage)
 	
 	{
 		
